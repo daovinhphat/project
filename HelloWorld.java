@@ -16,7 +16,10 @@ public class HelloWorld{
 			count++;
 		}
 		sc.close();
-		System.out.println("Total " + count + " Students");
+		if(count == 1)
+			System.out.println("Total 1 Student");
+		else
+			System.out.println("Total " + count + " Student");
 	}
 	
 	public static void main(String[] args) throws IOException {
