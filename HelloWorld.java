@@ -19,7 +19,7 @@ public class HelloWorld{
 		if(count == 1)
 			System.out.println("Total 1 Student");
 		else
-			System.out.println("Total " + count + " Student");
+			System.out.println("Total " + count + " Students");
 	}
 	
 	public static void main(String[] args) throws IOException {
